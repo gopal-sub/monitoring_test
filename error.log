@@ -11,3 +11,15 @@
   service: 'user-service',
   timestamp: '2025-10-21T15:26:30.956Z'
 }
+{
+  message: 'error severe',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2025-10-21T16:49:26.990Z'
+}
+{
+  message: 'Cpu hit high',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2025-10-21T16:49:39.193Z'
+}

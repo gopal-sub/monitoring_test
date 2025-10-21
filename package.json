@@ -4,15 +4,15 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "EW_RELIC_APPLICATION_LOGGING_FORWARDING_ENABLED=true NEW_RELIC_APP_NAME=test_app NEW_RELIC_LICENSE_KEY= node -r newrelic server.js"
+    "start": "EW_RELIC_APPLICATION_LOGGING_FORWARDING_ENABLED=true NEW_RELIC_APP_NAME=test_app NEW_RELIC_LICENSE_KEY=3b12c33aa0c29f65acad48aa97b3ea96FFFFNRAL node -r newrelic server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^5.1.0",
     "newrelic": "^13.5.0",
-    "winston": "^3.18.3",
-    "express": 
+    "winston": "^3.18.3"
   }
 }

@@ -12,7 +12,7 @@ app.get("/health", (req, res)=>{
 });
 
 app.get('/cpu', (req, res)=>{
-    const sum = 0;
+    let sum = 0;
     for(let i = 0; i < 100000; i++){
         sum += i;
     }
