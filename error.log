@@ -1,0 +1,13 @@
+{"level":"error","message":"error severe","service":"user-service"}
+{
+  message: 'error severe',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2025-10-21T15:25:09.123Z'
+}
+{
+  message: 'error severe',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '2025-10-21T15:26:30.956Z'
+}
